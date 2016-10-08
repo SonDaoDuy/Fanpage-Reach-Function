@@ -1,0 +1,7 @@
+#x <- c(1,2,3)
+y <- c(3,2,4)
+#plot(x)
+library(foreign)
+x = read.table("data.txt")
+plot(y)
+print(x)
