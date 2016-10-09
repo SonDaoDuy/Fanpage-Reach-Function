@@ -1,2 +1,3 @@
 # Fanpage-Reach-Function
-I build a approximate function for reach score of a facebook fanpage
+I build an approximate function for reach score of a facebook fanpage
+Step 1: Get a data file from the "data.html"
