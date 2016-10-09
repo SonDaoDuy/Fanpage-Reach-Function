@@ -15,7 +15,7 @@ class MyHTMLParser(HTMLParser):
       self.recording += 1
       return
     for name, value in attributes:
-      if name == 'class' and value == '_5kn3 ellipsis':
+      if name == 'class' and value == '_5kn2':
         break
     else:
       return
@@ -41,7 +41,7 @@ for number in parser.data:
     target.write(number)
     target.write(' ')
     i = i + 1
-    if(i >=3):
+    if(i >=4):
         target.write('\n')
         i = 0
 target.close()
