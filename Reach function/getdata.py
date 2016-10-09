@@ -33,7 +33,6 @@ f = codecs.open("data.html",'r')
 target = codecs.open("getdata.txt",'w')
 data = f.read()
 f.close()
-list =[]
 parser = MyHTMLParser()
 parser.feed(data)
 print parser.data
@@ -45,6 +44,7 @@ for number in parser.data:
     if(i >=3):
         target.write('\n')
         i = 0
+target.close()
 #tags = parser.handle_starttag('div',[('class','_5kn3 ellipsis')])
 
 # for tag in tags:
