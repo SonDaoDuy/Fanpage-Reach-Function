@@ -1,7 +1,10 @@
-#x <- c(1,2,3)
-y <- c(3,2,4)
-#plot(x)
-library(foreign)
-x = read.table("data.txt")
-plot(y)
-print(x)
+val = c(1,2,3,4)
+
+for(i in 1:4){
+    if(val[i]%%2==0){
+        # j = -1*i
+        fuck = val[-i]
+    }
+}
+
+plot(fuck)
