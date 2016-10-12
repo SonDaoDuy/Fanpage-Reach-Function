@@ -39,11 +39,12 @@ print parser.data
 i = 0
 for number in parser.data:
     target.write(number)
-    target.write(' ')
     i = i + 1
     if(i >=4):
         target.write('\n')
         i = 0
+    else:
+      target.write(' ')
 target.close()
 #tags = parser.handle_starttag('div',[('class','_5kn3 ellipsis')])
 
